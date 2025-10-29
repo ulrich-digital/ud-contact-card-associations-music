@@ -1,0 +1,59 @@
+{
+    "apiVersion": 2,
+    "name": "ud/contact-card-associations-music",
+    "title": "Kontaktkarte für Vereine und Musikgruppen",
+    "category": "widgets",
+    "icon": "id",
+    "description": "Zeigt Kontaktinformationen zu Vereinen und Musikgruppen mit optionaler Verlinkung.",
+    "keywords": [
+        "verein",
+        "musik",
+        "kontakt",
+        "gruppe"
+    ],
+    "editorStyle": "file:./build/editor-style.css",
+    "style": "file:./build/frontend-style.css",
+    "editorScript": "file:./build/editor-script.js",
+    "script": "file:./build/frontend-script.js",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "name": {
+            "type": "string",
+            "default": ""
+        },
+        "description": {
+            "type": "string",
+            "default": ""
+        },
+        "contactPerson": {
+            "type": "string",
+            "default": ""
+        },
+        "address": {
+            "type": "string",
+            "default": ""
+        },
+        "phone": {
+            "type": "string",
+            "default": ""
+        },
+        "email": {
+            "type": "string",
+            "default": ""
+        },
+        "websiteUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "websiteLabel": {
+            "type": "string",
+            "default": "Zur Website"
+        },
+        "showImage": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}
