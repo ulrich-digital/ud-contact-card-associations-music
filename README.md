@@ -16,6 +16,13 @@ Die Daten können direkt im Editor eingegeben und optional mit einem Bild oder e
 
 ---
 
+
+## Screenshots
+
+![Editor-Ansicht](./assets/editor-view.png)
+*Abbildung: Editor-Ansicht.*
+
+--
 ## ⚙️ Attribute (Auszug)
 
 | Attribut | Typ | Beschreibung |
