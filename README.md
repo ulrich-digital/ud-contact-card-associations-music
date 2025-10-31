@@ -8,7 +8,7 @@ Die Daten können direkt im Editor eingegeben und optional mit einem Bild oder e
 
 - Zeigt Name, Beschreibung, Kontaktperson, Adresse, Telefon, E-Mail und Website an
 - Optionales Bildfeld zur visuellen Ergänzung
-- Website-Link mit individuell anpassbarem Label
+- Wenn eine Website hinterlegt ist, erscheint automatisch ein Button neben dem Vereinsnamen
 - Vollständig editierbar im Gutenberg-Editor
 - Serverseitiges Rendering über `render.php`
 - Kompatibel mit Full Site Editing (FSE)
@@ -24,19 +24,7 @@ Die Daten können direkt im Editor eingegeben und optional mit einem Bild oder e
 *Editor-Ansicht.*
 
 
-## Attribute (Auszug)
 
-| Attribut | Typ | Beschreibung |
-|-----------|-----|--------------|
-| `name` | string | Name des Vereins oder der Gruppe |
-| `description` | string | Kurze Beschreibung |
-| `contactPerson` | string | Kontaktperson |
-| `address` | string | Adresse |
-| `phone` | string | Telefonnummer |
-| `email` | string | E-Mail-Adresse |
-| `websiteUrl` | string | Externer Link |
-| `websiteLabel` | string | Beschriftung für den Website-Link |
-| `showImage` | boolean | Anzeige eines Bildes aktivieren/deaktivieren |
 
 
 
