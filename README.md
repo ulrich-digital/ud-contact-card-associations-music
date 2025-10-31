@@ -3,7 +3,6 @@
 Block zur Darstellung von Kontaktinformationen für Vereine, Musikgruppen oder ähnliche Organisationen.
 Die Daten können direkt im Editor eingegeben und optional mit einem Bild oder einer Website verknüpft werden.
 
----
 
 ## Funktionen
 
@@ -14,19 +13,18 @@ Die Daten können direkt im Editor eingegeben und optional mit einem Bild oder e
 - Serverseitiges Rendering über `render.php`
 - Kompatibel mit Full Site Editing (FSE)
 
----
 
 
 ## Screenshots
 ![Frontend-Ansicht](./assets/ud-contact-card-associations-music.png)
-*Abbildung: Frontend-Ansicht.*
+*Frontend-Ansicht.*
 
 
 ![Editor-Ansicht](./assets/editor-view.png)
-*Abbildung: Editor-Ansicht.*
+*Editor-Ansicht.*
 
---
-## ⚙️ Attribute (Auszug)
+
+## Attribute (Auszug)
 
 | Attribut | Typ | Beschreibung |
 |-----------|-----|--------------|
@@ -40,9 +38,16 @@ Die Daten können direkt im Editor eingegeben und optional mit einem Bild oder e
 | `websiteLabel` | string | Beschriftung für den Website-Link |
 | `showImage` | boolean | Anzeige eines Bildes aktivieren/deaktivieren |
 
----
 
-## 🪪 Lizenz
+
+## Autor
+
+[ulrich.digital gmbh](https://ulrich.digital)
+
+
+## Lizenz
 
 GPL v2 or later
-© ulrich.digital gmbh – [https://ulrich.digital](https://ulrich.digital)
+[https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+
+
